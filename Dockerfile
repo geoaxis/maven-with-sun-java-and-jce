@@ -1,4 +1,4 @@
-FROM davidcaste/alpine-java-unlimited-jce
+FROM anapsix/alpine-java:8_jdk_unlimited
 
 RUN apk add --no-cache curl tar bash
 
